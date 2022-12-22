@@ -1,0 +1,125 @@
+body{
+    background: linear-gradient(to right,rgba(0, 98, 255, 0.916),#00ffd9c5);
+    justify-content: center;
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.fa-list-check{
+ font-size: 200%;
+}
+
+input{
+font-size: 120%;
+}
+
+#userinput{
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-radius: 1mm;
+    padding: 3px;
+    outline: none;
+    width: 40%;
+}
+
+#userinput:focus{
+    border: 3px solid rgba(85, 85, 85, 0.941);
+    font-size: 120%;
+    padding: 4px;
+}
+
+h1{
+  color: white;
+  font-family: "Lobster", Sans-serif;
+  font-size: 250%;
+}
+
+.addtask{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+.addbutton{
+    font-size: 110%;
+    background: white;
+    border: 2px solid;
+    border-radius: 2mm;
+}
+
+.addbutton:hover{
+    background: #C0C0C0;
+}
+
+.heading{
+    color:rgba(0, 0, 0, 0.801);
+    justify-content:start;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list{
+    background: white; 
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 2mm;
+    margin: 3px;
+    padding: 5px;
+    width: 100%;
+}
+
+.todotasks{
+    background: white;
+    display: flex;
+    font-size: 120%;
+}
+
+.alltasks{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.ellipsis{
+    font-size: 120%;
+    background: white;
+    border: none;
+    border-radius: 2mm;
+    position: relative;
+    display: inline-block;
+}
+
+.ellipsis:hover{
+    background: #C0C0C0;
+}
+
+.dropdown{  
+  display: none; 
+  border-radius: 1mm;
+  flex-direction: column;
+  position: absolute;
+  background-color: red;
+  min-width: 200%;
+  z-index: 1;
+}
+
+.ellipsis:hover .dropdown{
+    background:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown:hover{
+    background: #C0C0C0;
+}
+
+.temp{
+    list-style: none;
+    display: block;
+}
+
+
